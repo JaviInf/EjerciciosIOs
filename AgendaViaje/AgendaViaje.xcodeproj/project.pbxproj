@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6971D0EC18E2EF2700FCF8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D0EB18E2EF2700FCF8DD /* Foundation.framework */; };
+		6971D0EE18E2EF2700FCF8DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D0ED18E2EF2700FCF8DD /* CoreGraphics.framework */; };
+		6971D0F018E2EF2800FCF8DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D0EF18E2EF2800FCF8DD /* UIKit.framework */; };
+		6971D0F618E2EF2800FCF8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6971D0F418E2EF2800FCF8DD /* InfoPlist.strings */; };
+		6971D0F818E2EF2800FCF8DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D0F718E2EF2800FCF8DD /* main.m */; };
+		6971D0FC18E2EF2800FCF8DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D0FB18E2EF2800FCF8DD /* AppDelegate.m */; };
+		6971D0FF18E2EF2800FCF8DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6971D0FD18E2EF2800FCF8DD /* Main_iPhone.storyboard */; };
+		6971D10218E2EF2800FCF8DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6971D10018E2EF2800FCF8DD /* Main_iPad.storyboard */; };
+		6971D10718E2EF2800FCF8DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6971D10618E2EF2800FCF8DD /* Images.xcassets */; };
+		6971D10E18E2EF2800FCF8DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D10D18E2EF2800FCF8DD /* XCTest.framework */; };
+		6971D10F18E2EF2800FCF8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D0EB18E2EF2700FCF8DD /* Foundation.framework */; };
+		6971D11018E2EF2800FCF8DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D0EF18E2EF2800FCF8DD /* UIKit.framework */; };
+		6971D11818E2EF2800FCF8DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6971D11618E2EF2800FCF8DD /* InfoPlist.strings */; };
+		6971D11A18E2EF2800FCF8DD /* AgendaViajeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D11918E2EF2800FCF8DD /* AgendaViajeTests.m */; };
+		6971D12418E2EF3500FCF8DD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D12318E2EF3500FCF8DD /* CoreLocation.framework */; };
+		6971D12618E2EF3C00FCF8DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D12518E2EF3C00FCF8DD /* MapKit.framework */; };
+		6971D12918E2F0AF00FCF8DD /* ListadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D12818E2F0AF00FCF8DD /* ListadoViewController.m */; };
+		6971D12C18E2F0DC00FCF8DD /* MapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D12B18E2F0DC00FCF8DD /* MapaViewController.m */; };
+		6971D12E18E2F13300FCF8DD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6971D12D18E2F13300FCF8DD /* CoreData.framework */; };
+		6971D13118E2F15100FCF8DD /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6971D12F18E2F15100FCF8DD /* Model.xcdatamodeld */; };
+		6971D13818E2F25000FCF8DD /* Lugar+Metodos.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D13718E2F25000FCF8DD /* Lugar+Metodos.m */; };
+		6971D13B18E2F2CF00FCF8DD /* Lugar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D13A18E2F2CF00FCF8DD /* Lugar.m */; };
+		6971D13D18E2F35D00FCF8DD /* DatosAgendaViaje.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6971D13C18E2F35D00FCF8DD /* DatosAgendaViaje.plist */; };
+		6971D14218E2F38600FCF8DD /* BrandenburgerTor.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6971D13F18E2F38600FCF8DD /* BrandenburgerTor.jpeg */; };
+		6971D14318E2F38600FCF8DD /* Tour_Eiffel.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6971D14018E2F38600FCF8DD /* Tour_Eiffel.jpeg */; };
+		6971D14418E2F38600FCF8DD /* Tower_Bridge.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6971D14118E2F38600FCF8DD /* Tower_Bridge.jpeg */; };
+		6971D14718E2F3AE00FCF8DD /* Modelo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6971D14618E2F3AE00FCF8DD /* Modelo.m */; };
+		69CDD77518E4142500E723DF /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD77418E4142500E723DF /* DetalleViewController.m */; };
+		69CDD77818E417ED00E723DF /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD77718E417ED00E723DF /* WebViewController.m */; };
+		69CDD77B18E41F4A00E723DF /* AnadirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD77A18E41F4A00E723DF /* AnadirViewController.m */; };
+		69CDD7C218E4445400E723DF /* LugarMKannotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CDD7C118E4445400E723DF /* LugarMKannotation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6971D11118E2EF2800FCF8DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6971D0E018E2EF2700FCF8DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6971D0E718E2EF2700FCF8DD;
+			remoteInfo = AgendaViaje;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6971D0E818E2EF2700FCF8DD /* AgendaViaje.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AgendaViaje.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6971D0EB18E2EF2700FCF8DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6971D0ED18E2EF2700FCF8DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6971D0EF18E2EF2800FCF8DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6971D0F318E2EF2800FCF8DD /* AgendaViaje-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgendaViaje-Info.plist"; sourceTree = "<group>"; };
+		6971D0F518E2EF2800FCF8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6971D0F718E2EF2800FCF8DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6971D0F918E2EF2800FCF8DD /* AgendaViaje-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AgendaViaje-Prefix.pch"; sourceTree = "<group>"; };
+		6971D0FA18E2EF2800FCF8DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6971D0FB18E2EF2800FCF8DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6971D0FE18E2EF2800FCF8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		6971D10118E2EF2800FCF8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		6971D10618E2EF2800FCF8DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6971D10C18E2EF2800FCF8DD /* AgendaViajeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaViajeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6971D10D18E2EF2800FCF8DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6971D11518E2EF2800FCF8DD /* AgendaViajeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AgendaViajeTests-Info.plist"; sourceTree = "<group>"; };
+		6971D11718E2EF2800FCF8DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6971D11918E2EF2800FCF8DD /* AgendaViajeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AgendaViajeTests.m; sourceTree = "<group>"; };
+		6971D12318E2EF3500FCF8DD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6971D12518E2EF3C00FCF8DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6971D12718E2F0AF00FCF8DD /* ListadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListadoViewController.h; path = ../ListadoViewController.h; sourceTree = "<group>"; };
+		6971D12818E2F0AF00FCF8DD /* ListadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListadoViewController.m; path = ../ListadoViewController.m; sourceTree = "<group>"; };
+		6971D12A18E2F0DC00FCF8DD /* MapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapaViewController.h; sourceTree = "<group>"; };
+		6971D12B18E2F0DC00FCF8DD /* MapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapaViewController.m; sourceTree = "<group>"; };
+		6971D12D18E2F13300FCF8DD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6971D13018E2F15100FCF8DD /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		6971D13618E2F25000FCF8DD /* Lugar+Metodos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Lugar+Metodos.h"; path = "AgendaViaje/Modelo/Lugar+Metodos.h"; sourceTree = "<group>"; };
+		6971D13718E2F25000FCF8DD /* Lugar+Metodos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Lugar+Metodos.m"; path = "AgendaViaje/Modelo/Lugar+Metodos.m"; sourceTree = "<group>"; };
+		6971D13918E2F2CF00FCF8DD /* Lugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Lugar.h; path = AgendaViaje/Modelo/Lugar.h; sourceTree = "<group>"; };
+		6971D13A18E2F2CF00FCF8DD /* Lugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Lugar.m; path = AgendaViaje/Modelo/Lugar.m; sourceTree = "<group>"; };
+		6971D13C18E2F35D00FCF8DD /* DatosAgendaViaje.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DatosAgendaViaje.plist; path = ../../../Downloads/DatosAgendaViaje.plist; sourceTree = "<group>"; };
+		6971D13F18E2F38600FCF8DD /* BrandenburgerTor.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrandenburgerTor.jpeg; sourceTree = "<group>"; };
+		6971D14018E2F38600FCF8DD /* Tour_Eiffel.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tour_Eiffel.jpeg; sourceTree = "<group>"; };
+		6971D14118E2F38600FCF8DD /* Tower_Bridge.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Tower_Bridge.jpeg; sourceTree = "<group>"; };
+		6971D14518E2F3AE00FCF8DD /* Modelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Modelo.h; path = AgendaViaje/Modelo/Modelo.h; sourceTree = "<group>"; };
+		6971D14618E2F3AE00FCF8DD /* Modelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Modelo.m; path = AgendaViaje/Modelo/Modelo.m; sourceTree = "<group>"; };
+		69CDD77318E4142500E723DF /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		69CDD77418E4142500E723DF /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		69CDD77618E417ED00E723DF /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		69CDD77718E417ED00E723DF /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		69CDD77918E41F4A00E723DF /* AnadirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnadirViewController.h; sourceTree = "<group>"; };
+		69CDD77A18E41F4A00E723DF /* AnadirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnadirViewController.m; sourceTree = "<group>"; };
+		69CDD7C018E4445400E723DF /* LugarMKannotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LugarMKannotation.h; path = ../LugarMKannotation.h; sourceTree = "<group>"; };
+		69CDD7C118E4445400E723DF /* LugarMKannotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LugarMKannotation.m; path = ../LugarMKannotation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6971D0E518E2EF2700FCF8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D12E18E2F13300FCF8DD /* CoreData.framework in Frameworks */,
+				6971D12618E2EF3C00FCF8DD /* MapKit.framework in Frameworks */,
+				6971D12418E2EF3500FCF8DD /* CoreLocation.framework in Frameworks */,
+				6971D0EE18E2EF2700FCF8DD /* CoreGraphics.framework in Frameworks */,
+				6971D0F018E2EF2800FCF8DD /* UIKit.framework in Frameworks */,
+				6971D0EC18E2EF2700FCF8DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6971D10918E2EF2800FCF8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D10E18E2EF2800FCF8DD /* XCTest.framework in Frameworks */,
+				6971D11018E2EF2800FCF8DD /* UIKit.framework in Frameworks */,
+				6971D10F18E2EF2800FCF8DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6971D0DF18E2EF2700FCF8DD = {
+			isa = PBXGroup;
+			children = (
+				6971D13C18E2F35D00FCF8DD /* DatosAgendaViaje.plist */,
+				6971D13E18E2F38600FCF8DD /* Fotos */,
+				6971D13518E2F20300FCF8DD /* Modelo */,
+				6971D0F118E2EF2800FCF8DD /* AgendaViaje */,
+				6971D11318E2EF2800FCF8DD /* AgendaViajeTests */,
+				6971D0EA18E2EF2700FCF8DD /* Frameworks */,
+				6971D0E918E2EF2700FCF8DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6971D0E918E2EF2700FCF8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6971D0E818E2EF2700FCF8DD /* AgendaViaje.app */,
+				6971D10C18E2EF2800FCF8DD /* AgendaViajeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6971D0EA18E2EF2700FCF8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6971D12D18E2F13300FCF8DD /* CoreData.framework */,
+				6971D12518E2EF3C00FCF8DD /* MapKit.framework */,
+				6971D12318E2EF3500FCF8DD /* CoreLocation.framework */,
+				6971D0EB18E2EF2700FCF8DD /* Foundation.framework */,
+				6971D0ED18E2EF2700FCF8DD /* CoreGraphics.framework */,
+				6971D0EF18E2EF2800FCF8DD /* UIKit.framework */,
+				6971D10D18E2EF2800FCF8DD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6971D0F118E2EF2800FCF8DD /* AgendaViaje */ = {
+			isa = PBXGroup;
+			children = (
+				6971D12718E2F0AF00FCF8DD /* ListadoViewController.h */,
+				6971D12818E2F0AF00FCF8DD /* ListadoViewController.m */,
+				6971D0FD18E2EF2800FCF8DD /* Main_iPhone.storyboard */,
+				69CDD77918E41F4A00E723DF /* AnadirViewController.h */,
+				69CDD77A18E41F4A00E723DF /* AnadirViewController.m */,
+				69CDD77618E417ED00E723DF /* WebViewController.h */,
+				69CDD77718E417ED00E723DF /* WebViewController.m */,
+				69CDD77318E4142500E723DF /* DetalleViewController.h */,
+				69CDD77418E4142500E723DF /* DetalleViewController.m */,
+				6971D12A18E2F0DC00FCF8DD /* MapaViewController.h */,
+				6971D12B18E2F0DC00FCF8DD /* MapaViewController.m */,
+				69CDD7C018E4445400E723DF /* LugarMKannotation.h */,
+				69CDD7C118E4445400E723DF /* LugarMKannotation.m */,
+				6971D10018E2EF2800FCF8DD /* Main_iPad.storyboard */,
+				6971D10618E2EF2800FCF8DD /* Images.xcassets */,
+				6971D0F218E2EF2800FCF8DD /* Supporting Files */,
+			);
+			path = AgendaViaje;
+			sourceTree = "<group>";
+		};
+		6971D0F218E2EF2800FCF8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6971D0FA18E2EF2800FCF8DD /* AppDelegate.h */,
+				6971D0FB18E2EF2800FCF8DD /* AppDelegate.m */,
+				6971D0F318E2EF2800FCF8DD /* AgendaViaje-Info.plist */,
+				6971D0F418E2EF2800FCF8DD /* InfoPlist.strings */,
+				6971D0F718E2EF2800FCF8DD /* main.m */,
+				6971D0F918E2EF2800FCF8DD /* AgendaViaje-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6971D11318E2EF2800FCF8DD /* AgendaViajeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6971D11918E2EF2800FCF8DD /* AgendaViajeTests.m */,
+				6971D11418E2EF2800FCF8DD /* Supporting Files */,
+			);
+			path = AgendaViajeTests;
+			sourceTree = "<group>";
+		};
+		6971D11418E2EF2800FCF8DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6971D11518E2EF2800FCF8DD /* AgendaViajeTests-Info.plist */,
+				6971D11618E2EF2800FCF8DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6971D13518E2F20300FCF8DD /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				6971D13618E2F25000FCF8DD /* Lugar+Metodos.h */,
+				6971D13718E2F25000FCF8DD /* Lugar+Metodos.m */,
+				6971D13918E2F2CF00FCF8DD /* Lugar.h */,
+				6971D13A18E2F2CF00FCF8DD /* Lugar.m */,
+				6971D12F18E2F15100FCF8DD /* Model.xcdatamodeld */,
+				6971D14518E2F3AE00FCF8DD /* Modelo.h */,
+				6971D14618E2F3AE00FCF8DD /* Modelo.m */,
+			);
+			name = Modelo;
+			sourceTree = "<group>";
+		};
+		6971D13E18E2F38600FCF8DD /* Fotos */ = {
+			isa = PBXGroup;
+			children = (
+				6971D13F18E2F38600FCF8DD /* BrandenburgerTor.jpeg */,
+				6971D14018E2F38600FCF8DD /* Tour_Eiffel.jpeg */,
+				6971D14118E2F38600FCF8DD /* Tower_Bridge.jpeg */,
+			);
+			name = Fotos;
+			path = AgendaViaje/Fotos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6971D0E718E2EF2700FCF8DD /* AgendaViaje */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6971D11D18E2EF2800FCF8DD /* Build configuration list for PBXNativeTarget "AgendaViaje" */;
+			buildPhases = (
+				6971D0E418E2EF2700FCF8DD /* Sources */,
+				6971D0E518E2EF2700FCF8DD /* Frameworks */,
+				6971D0E618E2EF2700FCF8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AgendaViaje;
+			productName = AgendaViaje;
+			productReference = 6971D0E818E2EF2700FCF8DD /* AgendaViaje.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6971D10B18E2EF2800FCF8DD /* AgendaViajeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6971D12018E2EF2800FCF8DD /* Build configuration list for PBXNativeTarget "AgendaViajeTests" */;
+			buildPhases = (
+				6971D10818E2EF2800FCF8DD /* Sources */,
+				6971D10918E2EF2800FCF8DD /* Frameworks */,
+				6971D10A18E2EF2800FCF8DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6971D11218E2EF2800FCF8DD /* PBXTargetDependency */,
+			);
+			name = AgendaViajeTests;
+			productName = AgendaViajeTests;
+			productReference = 6971D10C18E2EF2800FCF8DD /* AgendaViajeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6971D0E018E2EF2700FCF8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = javi;
+				TargetAttributes = {
+					6971D10B18E2EF2800FCF8DD = {
+						TestTargetID = 6971D0E718E2EF2700FCF8DD;
+					};
+				};
+			};
+			buildConfigurationList = 6971D0E318E2EF2700FCF8DD /* Build configuration list for PBXProject "AgendaViaje" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6971D0DF18E2EF2700FCF8DD;
+			productRefGroup = 6971D0E918E2EF2700FCF8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6971D0E718E2EF2700FCF8DD /* AgendaViaje */,
+				6971D10B18E2EF2800FCF8DD /* AgendaViajeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6971D0E618E2EF2700FCF8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D14318E2F38600FCF8DD /* Tour_Eiffel.jpeg in Resources */,
+				6971D10218E2EF2800FCF8DD /* Main_iPad.storyboard in Resources */,
+				6971D14418E2F38600FCF8DD /* Tower_Bridge.jpeg in Resources */,
+				6971D14218E2F38600FCF8DD /* BrandenburgerTor.jpeg in Resources */,
+				6971D10718E2EF2800FCF8DD /* Images.xcassets in Resources */,
+				6971D13D18E2F35D00FCF8DD /* DatosAgendaViaje.plist in Resources */,
+				6971D0FF18E2EF2800FCF8DD /* Main_iPhone.storyboard in Resources */,
+				6971D0F618E2EF2800FCF8DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6971D10A18E2EF2800FCF8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D11818E2EF2800FCF8DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6971D0E418E2EF2700FCF8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D0FC18E2EF2800FCF8DD /* AppDelegate.m in Sources */,
+				69CDD77818E417ED00E723DF /* WebViewController.m in Sources */,
+				6971D12C18E2F0DC00FCF8DD /* MapaViewController.m in Sources */,
+				6971D13118E2F15100FCF8DD /* Model.xcdatamodeld in Sources */,
+				69CDD77B18E41F4A00E723DF /* AnadirViewController.m in Sources */,
+				69CDD77518E4142500E723DF /* DetalleViewController.m in Sources */,
+				6971D14718E2F3AE00FCF8DD /* Modelo.m in Sources */,
+				6971D13B18E2F2CF00FCF8DD /* Lugar.m in Sources */,
+				69CDD7C218E4445400E723DF /* LugarMKannotation.m in Sources */,
+				6971D12918E2F0AF00FCF8DD /* ListadoViewController.m in Sources */,
+				6971D13818E2F25000FCF8DD /* Lugar+Metodos.m in Sources */,
+				6971D0F818E2EF2800FCF8DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6971D10818E2EF2800FCF8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6971D11A18E2EF2800FCF8DD /* AgendaViajeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6971D11218E2EF2800FCF8DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6971D0E718E2EF2700FCF8DD /* AgendaViaje */;
+			targetProxy = 6971D11118E2EF2800FCF8DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6971D0F418E2EF2800FCF8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6971D0F518E2EF2800FCF8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6971D0FD18E2EF2800FCF8DD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6971D0FE18E2EF2800FCF8DD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		6971D10018E2EF2800FCF8DD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6971D10118E2EF2800FCF8DD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6971D11618E2EF2800FCF8DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6971D11718E2EF2800FCF8DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6971D11B18E2EF2800FCF8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6971D11C18E2EF2800FCF8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6971D11E18E2EF2800FCF8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgendaViaje/AgendaViaje-Prefix.pch";
+				INFOPLIST_FILE = "AgendaViaje/AgendaViaje-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6971D11F18E2EF2800FCF8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgendaViaje/AgendaViaje-Prefix.pch";
+				INFOPLIST_FILE = "AgendaViaje/AgendaViaje-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6971D12118E2EF2800FCF8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgendaViaje.app/AgendaViaje";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgendaViaje/AgendaViaje-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AgendaViajeTests/AgendaViajeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6971D12218E2EF2800FCF8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AgendaViaje.app/AgendaViaje";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AgendaViaje/AgendaViaje-Prefix.pch";
+				INFOPLIST_FILE = "AgendaViajeTests/AgendaViajeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6971D0E318E2EF2700FCF8DD /* Build configuration list for PBXProject "AgendaViaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6971D11B18E2EF2800FCF8DD /* Debug */,
+				6971D11C18E2EF2800FCF8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6971D11D18E2EF2800FCF8DD /* Build configuration list for PBXNativeTarget "AgendaViaje" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6971D11E18E2EF2800FCF8DD /* Debug */,
+				6971D11F18E2EF2800FCF8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6971D12018E2EF2800FCF8DD /* Build configuration list for PBXNativeTarget "AgendaViajeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6971D12118E2EF2800FCF8DD /* Debug */,
+				6971D12218E2EF2800FCF8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6971D12F18E2F15100FCF8DD /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6971D13018E2F15100FCF8DD /* Model.xcdatamodel */,
+			);
+			currentVersion = 6971D13018E2F15100FCF8DD /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = AgendaViaje/Modelo/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6971D0E018E2EF2700FCF8DD /* Project object */;
+}
