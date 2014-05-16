@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6962A1AD18AB71FD00292390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1AC18AB71FD00292390 /* Foundation.framework */; };
+		6962A1AF18AB71FD00292390 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1AE18AB71FD00292390 /* CoreGraphics.framework */; };
+		6962A1B118AB71FD00292390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1B018AB71FD00292390 /* UIKit.framework */; };
+		6962A1B718AB71FD00292390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6962A1B518AB71FD00292390 /* InfoPlist.strings */; };
+		6962A1B918AB71FD00292390 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962A1B818AB71FD00292390 /* main.m */; };
+		6962A1BD18AB71FD00292390 /* HolaMundoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962A1BC18AB71FD00292390 /* HolaMundoAppDelegate.m */; };
+		6962A1C018AB71FD00292390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6962A1BE18AB71FD00292390 /* Main.storyboard */; };
+		6962A1C318AB71FD00292390 /* HolaMundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962A1C218AB71FD00292390 /* HolaMundoViewController.m */; };
+		6962A1C518AB71FD00292390 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6962A1C418AB71FD00292390 /* Images.xcassets */; };
+		6962A1CC18AB71FD00292390 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1CB18AB71FD00292390 /* XCTest.framework */; };
+		6962A1CD18AB71FD00292390 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1AC18AB71FD00292390 /* Foundation.framework */; };
+		6962A1CE18AB71FD00292390 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6962A1B018AB71FD00292390 /* UIKit.framework */; };
+		6962A1D618AB71FD00292390 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6962A1D418AB71FD00292390 /* InfoPlist.strings */; };
+		6962A1D818AB71FD00292390 /* HolaMundoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6962A1D718AB71FD00292390 /* HolaMundoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6962A1CF18AB71FD00292390 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6962A1A118AB71FD00292390 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6962A1A818AB71FD00292390;
+			remoteInfo = HolaMundo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6962A1A918AB71FD00292390 /* HolaMundo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaMundo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6962A1AC18AB71FD00292390 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6962A1AE18AB71FD00292390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6962A1B018AB71FD00292390 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6962A1B418AB71FD00292390 /* HolaMundo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HolaMundo-Info.plist"; sourceTree = "<group>"; };
+		6962A1B618AB71FD00292390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6962A1B818AB71FD00292390 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6962A1BA18AB71FD00292390 /* HolaMundo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HolaMundo-Prefix.pch"; sourceTree = "<group>"; };
+		6962A1BB18AB71FD00292390 /* HolaMundoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolaMundoAppDelegate.h; sourceTree = "<group>"; };
+		6962A1BC18AB71FD00292390 /* HolaMundoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaMundoAppDelegate.m; sourceTree = "<group>"; };
+		6962A1BF18AB71FD00292390 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6962A1C118AB71FD00292390 /* HolaMundoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HolaMundoViewController.h; sourceTree = "<group>"; };
+		6962A1C218AB71FD00292390 /* HolaMundoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaMundoViewController.m; sourceTree = "<group>"; };
+		6962A1C418AB71FD00292390 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6962A1CA18AB71FD00292390 /* HolaMundoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolaMundoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6962A1CB18AB71FD00292390 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6962A1D318AB71FD00292390 /* HolaMundoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HolaMundoTests-Info.plist"; sourceTree = "<group>"; };
+		6962A1D518AB71FD00292390 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6962A1D718AB71FD00292390 /* HolaMundoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HolaMundoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6962A1A618AB71FD00292390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1AF18AB71FD00292390 /* CoreGraphics.framework in Frameworks */,
+				6962A1B118AB71FD00292390 /* UIKit.framework in Frameworks */,
+				6962A1AD18AB71FD00292390 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6962A1C718AB71FD00292390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1CC18AB71FD00292390 /* XCTest.framework in Frameworks */,
+				6962A1CE18AB71FD00292390 /* UIKit.framework in Frameworks */,
+				6962A1CD18AB71FD00292390 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6962A1A018AB71FD00292390 = {
+			isa = PBXGroup;
+			children = (
+				6962A1B218AB71FD00292390 /* HolaMundo */,
+				6962A1D118AB71FD00292390 /* HolaMundoTests */,
+				6962A1AB18AB71FD00292390 /* Frameworks */,
+				6962A1AA18AB71FD00292390 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6962A1AA18AB71FD00292390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1A918AB71FD00292390 /* HolaMundo.app */,
+				6962A1CA18AB71FD00292390 /* HolaMundoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6962A1AB18AB71FD00292390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1AC18AB71FD00292390 /* Foundation.framework */,
+				6962A1AE18AB71FD00292390 /* CoreGraphics.framework */,
+				6962A1B018AB71FD00292390 /* UIKit.framework */,
+				6962A1CB18AB71FD00292390 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6962A1B218AB71FD00292390 /* HolaMundo */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1BB18AB71FD00292390 /* HolaMundoAppDelegate.h */,
+				6962A1BC18AB71FD00292390 /* HolaMundoAppDelegate.m */,
+				6962A1BE18AB71FD00292390 /* Main.storyboard */,
+				6962A1C118AB71FD00292390 /* HolaMundoViewController.h */,
+				6962A1C218AB71FD00292390 /* HolaMundoViewController.m */,
+				6962A1C418AB71FD00292390 /* Images.xcassets */,
+				6962A1B318AB71FD00292390 /* Supporting Files */,
+			);
+			path = HolaMundo;
+			sourceTree = "<group>";
+		};
+		6962A1B318AB71FD00292390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1B418AB71FD00292390 /* HolaMundo-Info.plist */,
+				6962A1B518AB71FD00292390 /* InfoPlist.strings */,
+				6962A1B818AB71FD00292390 /* main.m */,
+				6962A1BA18AB71FD00292390 /* HolaMundo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6962A1D118AB71FD00292390 /* HolaMundoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1D718AB71FD00292390 /* HolaMundoTests.m */,
+				6962A1D218AB71FD00292390 /* Supporting Files */,
+			);
+			path = HolaMundoTests;
+			sourceTree = "<group>";
+		};
+		6962A1D218AB71FD00292390 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6962A1D318AB71FD00292390 /* HolaMundoTests-Info.plist */,
+				6962A1D418AB71FD00292390 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6962A1A818AB71FD00292390 /* HolaMundo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6962A1DB18AB71FD00292390 /* Build configuration list for PBXNativeTarget "HolaMundo" */;
+			buildPhases = (
+				6962A1A518AB71FD00292390 /* Sources */,
+				6962A1A618AB71FD00292390 /* Frameworks */,
+				6962A1A718AB71FD00292390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaMundo;
+			productName = HolaMundo;
+			productReference = 6962A1A918AB71FD00292390 /* HolaMundo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6962A1C918AB71FD00292390 /* HolaMundoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6962A1DE18AB71FD00292390 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */;
+			buildPhases = (
+				6962A1C618AB71FD00292390 /* Sources */,
+				6962A1C718AB71FD00292390 /* Frameworks */,
+				6962A1C818AB71FD00292390 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6962A1D018AB71FD00292390 /* PBXTargetDependency */,
+			);
+			name = HolaMundoTests;
+			productName = HolaMundoTests;
+			productReference = 6962A1CA18AB71FD00292390 /* HolaMundoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6962A1A118AB71FD00292390 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HolaMundo;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = javi;
+				TargetAttributes = {
+					6962A1C918AB71FD00292390 = {
+						TestTargetID = 6962A1A818AB71FD00292390;
+					};
+				};
+			};
+			buildConfigurationList = 6962A1A418AB71FD00292390 /* Build configuration list for PBXProject "HolaMundo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6962A1A018AB71FD00292390;
+			productRefGroup = 6962A1AA18AB71FD00292390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6962A1A818AB71FD00292390 /* HolaMundo */,
+				6962A1C918AB71FD00292390 /* HolaMundoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6962A1A718AB71FD00292390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1C518AB71FD00292390 /* Images.xcassets in Resources */,
+				6962A1B718AB71FD00292390 /* InfoPlist.strings in Resources */,
+				6962A1C018AB71FD00292390 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6962A1C818AB71FD00292390 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1D618AB71FD00292390 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6962A1A518AB71FD00292390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1BD18AB71FD00292390 /* HolaMundoAppDelegate.m in Sources */,
+				6962A1B918AB71FD00292390 /* main.m in Sources */,
+				6962A1C318AB71FD00292390 /* HolaMundoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6962A1C618AB71FD00292390 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6962A1D818AB71FD00292390 /* HolaMundoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6962A1D018AB71FD00292390 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6962A1A818AB71FD00292390 /* HolaMundo */;
+			targetProxy = 6962A1CF18AB71FD00292390 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6962A1B518AB71FD00292390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6962A1B618AB71FD00292390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6962A1BE18AB71FD00292390 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6962A1BF18AB71FD00292390 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6962A1D418AB71FD00292390 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6962A1D518AB71FD00292390 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6962A1D918AB71FD00292390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6962A1DA18AB71FD00292390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6962A1DC18AB71FD00292390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				INFOPLIST_FILE = "HolaMundo/HolaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6962A1DD18AB71FD00292390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				INFOPLIST_FILE = "HolaMundo/HolaMundo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6962A1DF18AB71FD00292390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HolaMundo.app/HolaMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HolaMundoTests/HolaMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6962A1E018AB71FD00292390 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HolaMundo.app/HolaMundo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HolaMundo/HolaMundo-Prefix.pch";
+				INFOPLIST_FILE = "HolaMundoTests/HolaMundoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6962A1A418AB71FD00292390 /* Build configuration list for PBXProject "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6962A1D918AB71FD00292390 /* Debug */,
+				6962A1DA18AB71FD00292390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6962A1DB18AB71FD00292390 /* Build configuration list for PBXNativeTarget "HolaMundo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6962A1DC18AB71FD00292390 /* Debug */,
+				6962A1DD18AB71FD00292390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6962A1DE18AB71FD00292390 /* Build configuration list for PBXNativeTarget "HolaMundoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6962A1DF18AB71FD00292390 /* Debug */,
+				6962A1E018AB71FD00292390 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6962A1A118AB71FD00292390 /* Project object */;
+}
