@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="sCk-FM-AXC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller - Ayuda-->
+        <scene sceneID="77O-zj-uio">
+            <objects>
+                <viewController id="lZe-WM-JwX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H8c-Zo-mKZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="zhI-9V-zK3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5gz-zj-W5i">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Ayuda" image="Ayuda" id="Y59-QK-QPz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oli-xd-ATX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="105"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="t64-z5-jyo">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="sCk-FM-AXC" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="qMa-9f-CTo">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lZe-WM-JwX" kind="relationship" relationship="viewControllers" id="kDn-ER-60v"/>
+                        <segue destination="WFN-h9-k00" kind="relationship" relationship="viewControllers" id="7Ck-Kh-jdY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gKw-NZ-lWV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-291" y="217"/>
+        </scene>
+        <!--View Controller - Inicio-->
+        <scene sceneID="pX4-rc-eyc">
+            <objects>
+                <viewController id="WFN-h9-k00" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nci-h2-miJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="AaB-Pk-ZM2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IOi-BG-b4E">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Inicio" image="Inicio" id="g1e-3n-6QO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DKY-v2-Oum" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232" y="758"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Ayuda" width="25" height="25"/>
+        <image name="Inicio" width="25" height="25"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
