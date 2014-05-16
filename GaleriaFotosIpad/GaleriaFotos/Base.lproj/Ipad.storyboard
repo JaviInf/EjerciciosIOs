@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="gog-5i-7vy">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Wfv-Dr-TCd">
+            <objects>
+                <viewController id="gog-5i-7vy" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rZL-6p-02m">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="NPe-6e-PvS">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="CIW-Wp-i3h">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="PEE-6L-dlf">
+                                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <gestureRecognizers/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="FzJ-gG-ZpB" appends="YES" id="pNq-Li-jUF"/>
+                                            <outletCollection property="gestureRecognizers" destination="lFr-T8-vlY" appends="YES" id="CDC-4X-pM0"/>
+                                            <outletCollection property="gestureRecognizers" destination="jYK-Dg-jym" appends="YES" id="BLu-Zy-KTy"/>
+                                            <outletCollection property="gestureRecognizers" destination="YL2-iM-xgW" appends="YES" id="ddI-e8-3in"/>
+                                            <outletCollection property="gestureRecognizers" destination="uZY-Yi-jdf" appends="YES" id="UBh-cB-bZ4"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="foto" destination="PEE-6L-dlf" id="n6M-PD-j8Y"/>
+                        <outlet property="fotoNueva" destination="CIW-Wp-i3h" id="hlT-SF-864"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5dR-yF-CBH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="FzJ-gG-ZpB">
+                    <connections>
+                        <action selector="retroceder:" destination="gog-5i-7vy" id="yMa-Qq-t9J"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="lFr-T8-vlY">
+                    <connections>
+                        <action selector="avanzar:" destination="gog-5i-7vy" id="8ti-jc-pui"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <tapGestureRecognizer id="jYK-Dg-jym">
+                    <connections>
+                        <action selector="tapFoto:" destination="gog-5i-7vy" id="OWh-VF-aqJ"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <rotationGestureRecognizer id="YL2-iM-xgW">
+                    <connections>
+                        <action selector="rotarFoto:" destination="gog-5i-7vy" id="m3d-Uj-a9M"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="uZY-Yi-jdf">
+                    <connections>
+                        <action selector="pinchFoto:" destination="gog-5i-7vy" id="6yb-K4-NAA"/>
+                    </connections>
+                </pinchGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-154" y="144"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
