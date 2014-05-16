@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>titulo</key>
+		<string>El libro negro del emprendedor</string>
+		<key>portada</key>
+		<string>PORTADA1.JPG</string>
+		<key>isbn</key>
+		<string>9788496627260</string>
+		<key>autor</key>
+		<string>Xavier Gabriel</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>The Four Steps to the Epiphany</string>
+		<key>portada</key>
+		<string>PORTADA2.JPG</string>
+		<key>isbn</key>
+		<string>0976470705</string>
+		<key>autor</key>
+		<string>Steven Gary Blank</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>Generacion de modelos de negocio</string>
+		<key>portada</key>
+		<string>PORTADA3.JPG</string>
+		<key>isbn</key>
+		<string>9788423427994</string>
+		<key>autor</key>
+		<string>Alexander Osterwalder</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>Don&apos;t Make me Think</string>
+		<key>portada</key>
+		<string>PORTADA4.JPG</string>
+		<key>isbn</key>
+		<string>0789723107</string>
+		<key>autor</key>
+		<string>Roger Black</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>Designing Web Usability</string>
+		<key>portada</key>
+		<string>PORTADA5.JPG</string>
+		<key>isbn</key>
+		<string>1562058110</string>
+		<key>autor</key>
+		<string>Jakob Nielsen</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>Designing with web standarts</string>
+		<key>portada</key>
+		<string>PORTADA6.JPG</string>
+		<key>isbn</key>
+		<string>33</string>
+		<key>autor</key>
+		<string>jeffrey zeldman</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>Cascading Styke Sheets</string>
+		<key>portada</key>
+		<string>PORTADA7.JPG</string>
+		<key>isbn</key>
+		<string>34</string>
+		<key>autor</key>
+		<string>Hakon wium lie &amp; Bert Bos</string>
+	</dict>
+	<dict>
+		<key>titulo</key>
+		<string>On CSS</string>
+		<key>portada</key>
+		<string>PORTADA7.JPG</string>
+		<key>isbn</key>
+		<string>7</string>
+		<key>autor</key>
+		<string>Erik Meyer</string>
+	</dict>
+</array>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ZBarSDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3BA07681FFE74EBF9843DE86</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DE8D0214A244B87A9A11BC1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7AEA8BA3003E4536817861DA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E9144FC7656D4823A1A7AF20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
