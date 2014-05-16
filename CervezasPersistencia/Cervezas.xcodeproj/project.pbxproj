@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C3279D18B738A400860301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3279C18B738A400860301 /* Foundation.framework */; };
+		69C3279F18B738A400860301 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3279E18B738A400860301 /* CoreGraphics.framework */; };
+		69C327A118B738A400860301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C327A018B738A400860301 /* UIKit.framework */; };
+		69C327A718B738A400860301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69C327A518B738A400860301 /* InfoPlist.strings */; };
+		69C327A918B738A400860301 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C327A818B738A400860301 /* main.m */; };
+		69C327AD18B738A400860301 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C327AC18B738A400860301 /* AppDelegate.m */; };
+		69C327B018B738A400860301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69C327AE18B738A400860301 /* Main.storyboard */; };
+		69C327B518B738A400860301 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C327B418B738A400860301 /* Images.xcassets */; };
+		69C327BC18B738A400860301 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C327BB18B738A400860301 /* XCTest.framework */; };
+		69C327BD18B738A400860301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C3279C18B738A400860301 /* Foundation.framework */; };
+		69C327BE18B738A400860301 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C327A018B738A400860301 /* UIKit.framework */; };
+		69C327C618B738A400860301 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69C327C418B738A400860301 /* InfoPlist.strings */; };
+		69C327C818B738A400860301 /* CervezasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C327C718B738A400860301 /* CervezasTests.m */; };
+		69C3282318B73B9400860301 /* beer_allagash_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280818B73B9400860301 /* beer_allagash_white.jpg */; };
+		69C3282418B73B9400860301 /* beer_anchor_christmas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280918B73B9400860301 /* beer_anchor_christmas.jpg */; };
+		69C3282518B73B9400860301 /* beer_anchor_steam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280A18B73B9400860301 /* beer_anchor_steam.jpg */; };
+		69C3282618B73B9400860301 /* beer_bruery_saison_rue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280B18B73B9400860301 /* beer_bruery_saison_rue.jpg */; };
+		69C3282718B73B9400860301 /* beer_cantillon_iris.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280C18B73B9400860301 /* beer_cantillon_iris.jpg */; };
+		69C3282818B73B9400860301 /* beer_capuccino_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280D18B73B9400860301 /* beer_capuccino_stout.jpg */; };
+		69C3282918B73B9400860301 /* beer_de_struise_pannepot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280E18B73B9400860301 /* beer_de_struise_pannepot.jpg */; };
+		69C3282A18B73B9400860301 /* beer_dortmunder_gold.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3280F18B73B9400860301 /* beer_dortmunder_gold.jpg */; };
+		69C3282B18B73B9400860301 /* beer_founders_kbs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281018B73B9400860301 /* beer_founders_kbs.jpg */; };
+		69C3282C18B73B9400860301 /* beer_great_divide_yeti_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281118B73B9400860301 /* beer_great_divide_yeti_stout.jpg */; };
+		69C3282D18B73B9400860301 /* beer_harviestoun_old_engine_oil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281218B73B9400860301 /* beer_harviestoun_old_engine_oil.jpg */; };
+		69C3282E18B73B9400860301 /* beer_hennepin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281318B73B9400860301 /* beer_hennepin.jpg */; };
+		69C3282F18B73B9400860301 /* beer_hitacho_lacto_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281418B73B9400860301 /* beer_hitacho_lacto_stout.jpg */; };
+		69C3283018B73B9400860301 /* beer_jolly_pumpkin_la_roja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281518B73B9400860301 /* beer_jolly_pumpkin_la_roja.jpg */; };
+		69C3283118B73B9400860301 /* beer_lion_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281618B73B9400860301 /* beer_lion_stout.jpg */; };
+		69C3283218B73B9400860301 /* beer_orval_trappist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281718B73B9400860301 /* beer_orval_trappist.jpg */; };
+		69C3283318B73B9400860301 /* beer_paradox_smokehead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281818B73B9400860301 /* beer_paradox_smokehead.jpg */; };
+		69C3283418B73B9400860301 /* beer_port_brewing_shark_attack_red.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281918B73B9400860301 /* beer_port_brewing_shark_attack_red.jpg */; };
+		69C3283518B73B9400860301 /* beer_pretty_things_jack_dor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281A18B73B9400860301 /* beer_pretty_things_jack_dor.jpg */; };
+		69C3283618B73B9400860301 /* beer_rodenbach_grand_cru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281B18B73B9400860301 /* beer_rodenbach_grand_cru.jpg */; };
+		69C3283718B73B9400860301 /* beer_rogue_dead_guy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281C18B73B9400860301 /* beer_rogue_dead_guy.jpg */; };
+		69C3283818B73B9400860301 /* beer_samuel_smith_oatmeal_stout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281D18B73B9400860301 /* beer_samuel_smith_oatmeal_stout.jpg */; };
+		69C3283918B73B9400860301 /* beer_smuttynose_barleywine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281E18B73B9400860301 /* beer_smuttynose_barleywine.jpg */; };
+		69C3283A18B73B9400860301 /* beer_weihenstephaner_hefeweissbier.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3281F18B73B9400860301 /* beer_weihenstephaner_hefeweissbier.jpg */; };
+		69C3283B18B73B9400860301 /* beer_westvleteren_abt_12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3282018B73B9400860301 /* beer_westvleteren_abt_12.jpg */; };
+		69C3283C18B73B9400860301 /* beer_whiteback_white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69C3282118B73B9400860301 /* beer_whiteback_white.jpg */; };
+		69C3283F18B73C0900860301 /* beers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69C3283E18B73C0900860301 /* beers.plist */; };
+		69C3291C18B7640400860301 /* Cervezas.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3291B18B7640400860301 /* Cervezas.m */; };
+		69C3291F18B76E7200860301 /* Cerveza.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3291E18B76E7200860301 /* Cerveza.m */; };
+		69C3292218B774C200860301 /* TablaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C3292118B774C200860301 /* TablaViewController.m */; };
+		69CF46C618BC9F4F00E68E44 /* SeleccionaFotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF46C518BC9F4F00E68E44 /* SeleccionaFotoViewController.m */; };
+		69CF46C918BCAF6800E68E44 /* AñadirViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69CF46C818BCAF6800E68E44 /* AñadirViewController.m */; };
+		69D5117C18BB6E1400EDABD8 /* SegundaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D5117B18BB6E1400EDABD8 /* SegundaViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C327BF18B738A400860301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C3279118B738A400860301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C3279818B738A400860301;
+			remoteInfo = Cervezas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69C3279918B738A400860301 /* Cervezas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cervezas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C3279C18B738A400860301 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69C3279E18B738A400860301 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69C327A018B738A400860301 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69C327A418B738A400860301 /* Cervezas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cervezas-Info.plist"; sourceTree = "<group>"; };
+		69C327A618B738A400860301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69C327A818B738A400860301 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69C327AA18B738A400860301 /* Cervezas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cervezas-Prefix.pch"; sourceTree = "<group>"; };
+		69C327AB18B738A400860301 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69C327AC18B738A400860301 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69C327AF18B738A400860301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69C327B418B738A400860301 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69C327BA18B738A400860301 /* CervezasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CervezasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C327BB18B738A400860301 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69C327C318B738A400860301 /* CervezasTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CervezasTests-Info.plist"; sourceTree = "<group>"; };
+		69C327C518B738A400860301 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69C327C718B738A400860301 /* CervezasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CervezasTests.m; sourceTree = "<group>"; };
+		69C3280818B73B9400860301 /* beer_allagash_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_allagash_white.jpg; path = Cervezas/imagenes/beer_allagash_white.jpg; sourceTree = "<group>"; };
+		69C3280918B73B9400860301 /* beer_anchor_christmas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_anchor_christmas.jpg; path = Cervezas/imagenes/beer_anchor_christmas.jpg; sourceTree = "<group>"; };
+		69C3280A18B73B9400860301 /* beer_anchor_steam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_anchor_steam.jpg; path = Cervezas/imagenes/beer_anchor_steam.jpg; sourceTree = "<group>"; };
+		69C3280B18B73B9400860301 /* beer_bruery_saison_rue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_bruery_saison_rue.jpg; path = Cervezas/imagenes/beer_bruery_saison_rue.jpg; sourceTree = "<group>"; };
+		69C3280C18B73B9400860301 /* beer_cantillon_iris.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_cantillon_iris.jpg; path = Cervezas/imagenes/beer_cantillon_iris.jpg; sourceTree = "<group>"; };
+		69C3280D18B73B9400860301 /* beer_capuccino_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_capuccino_stout.jpg; path = Cervezas/imagenes/beer_capuccino_stout.jpg; sourceTree = "<group>"; };
+		69C3280E18B73B9400860301 /* beer_de_struise_pannepot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_de_struise_pannepot.jpg; path = Cervezas/imagenes/beer_de_struise_pannepot.jpg; sourceTree = "<group>"; };
+		69C3280F18B73B9400860301 /* beer_dortmunder_gold.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_dortmunder_gold.jpg; path = Cervezas/imagenes/beer_dortmunder_gold.jpg; sourceTree = "<group>"; };
+		69C3281018B73B9400860301 /* beer_founders_kbs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_founders_kbs.jpg; path = Cervezas/imagenes/beer_founders_kbs.jpg; sourceTree = "<group>"; };
+		69C3281118B73B9400860301 /* beer_great_divide_yeti_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_great_divide_yeti_stout.jpg; path = Cervezas/imagenes/beer_great_divide_yeti_stout.jpg; sourceTree = "<group>"; };
+		69C3281218B73B9400860301 /* beer_harviestoun_old_engine_oil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_harviestoun_old_engine_oil.jpg; path = Cervezas/imagenes/beer_harviestoun_old_engine_oil.jpg; sourceTree = "<group>"; };
+		69C3281318B73B9400860301 /* beer_hennepin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_hennepin.jpg; path = Cervezas/imagenes/beer_hennepin.jpg; sourceTree = "<group>"; };
+		69C3281418B73B9400860301 /* beer_hitacho_lacto_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_hitacho_lacto_stout.jpg; path = Cervezas/imagenes/beer_hitacho_lacto_stout.jpg; sourceTree = "<group>"; };
+		69C3281518B73B9400860301 /* beer_jolly_pumpkin_la_roja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_jolly_pumpkin_la_roja.jpg; path = Cervezas/imagenes/beer_jolly_pumpkin_la_roja.jpg; sourceTree = "<group>"; };
+		69C3281618B73B9400860301 /* beer_lion_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_lion_stout.jpg; path = Cervezas/imagenes/beer_lion_stout.jpg; sourceTree = "<group>"; };
+		69C3281718B73B9400860301 /* beer_orval_trappist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_orval_trappist.jpg; path = Cervezas/imagenes/beer_orval_trappist.jpg; sourceTree = "<group>"; };
+		69C3281818B73B9400860301 /* beer_paradox_smokehead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_paradox_smokehead.jpg; path = Cervezas/imagenes/beer_paradox_smokehead.jpg; sourceTree = "<group>"; };
+		69C3281918B73B9400860301 /* beer_port_brewing_shark_attack_red.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_port_brewing_shark_attack_red.jpg; path = Cervezas/imagenes/beer_port_brewing_shark_attack_red.jpg; sourceTree = "<group>"; };
+		69C3281A18B73B9400860301 /* beer_pretty_things_jack_dor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_pretty_things_jack_dor.jpg; path = Cervezas/imagenes/beer_pretty_things_jack_dor.jpg; sourceTree = "<group>"; };
+		69C3281B18B73B9400860301 /* beer_rodenbach_grand_cru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_rodenbach_grand_cru.jpg; path = Cervezas/imagenes/beer_rodenbach_grand_cru.jpg; sourceTree = "<group>"; };
+		69C3281C18B73B9400860301 /* beer_rogue_dead_guy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_rogue_dead_guy.jpg; path = Cervezas/imagenes/beer_rogue_dead_guy.jpg; sourceTree = "<group>"; };
+		69C3281D18B73B9400860301 /* beer_samuel_smith_oatmeal_stout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_samuel_smith_oatmeal_stout.jpg; path = Cervezas/imagenes/beer_samuel_smith_oatmeal_stout.jpg; sourceTree = "<group>"; };
+		69C3281E18B73B9400860301 /* beer_smuttynose_barleywine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_smuttynose_barleywine.jpg; path = Cervezas/imagenes/beer_smuttynose_barleywine.jpg; sourceTree = "<group>"; };
+		69C3281F18B73B9400860301 /* beer_weihenstephaner_hefeweissbier.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_weihenstephaner_hefeweissbier.jpg; path = Cervezas/imagenes/beer_weihenstephaner_hefeweissbier.jpg; sourceTree = "<group>"; };
+		69C3282018B73B9400860301 /* beer_westvleteren_abt_12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_westvleteren_abt_12.jpg; path = Cervezas/imagenes/beer_westvleteren_abt_12.jpg; sourceTree = "<group>"; };
+		69C3282118B73B9400860301 /* beer_whiteback_white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beer_whiteback_white.jpg; path = Cervezas/imagenes/beer_whiteback_white.jpg; sourceTree = "<group>"; };
+		69C3283E18B73C0900860301 /* beers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = beers.plist; path = imagenes/beers.plist; sourceTree = "<group>"; };
+		69C3291A18B7640400860301 /* Cervezas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cervezas.h; sourceTree = "<group>"; };
+		69C3291B18B7640400860301 /* Cervezas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cervezas.m; sourceTree = "<group>"; };
+		69C3291D18B76E7200860301 /* Cerveza.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cerveza.h; sourceTree = "<group>"; };
+		69C3291E18B76E7200860301 /* Cerveza.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cerveza.m; sourceTree = "<group>"; };
+		69C3292018B774C200860301 /* TablaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablaViewController.h; sourceTree = "<group>"; };
+		69C3292118B774C200860301 /* TablaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablaViewController.m; sourceTree = "<group>"; };
+		69CF46C418BC9F4F00E68E44 /* SeleccionaFotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SeleccionaFotoViewController.h; path = ../SeleccionaFotoViewController.h; sourceTree = "<group>"; };
+		69CF46C518BC9F4F00E68E44 /* SeleccionaFotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SeleccionaFotoViewController.m; path = ../SeleccionaFotoViewController.m; sourceTree = "<group>"; };
+		69CF46C718BCAF6800E68E44 /* AñadirViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AñadirViewController.h"; sourceTree = "<group>"; };
+		69CF46C818BCAF6800E68E44 /* AñadirViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AñadirViewController.m"; sourceTree = "<group>"; };
+		69D5117A18BB6E1400EDABD8 /* SegundaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaViewController.h; sourceTree = "<group>"; };
+		69D5117B18BB6E1400EDABD8 /* SegundaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C3279618B738A400860301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3279F18B738A400860301 /* CoreGraphics.framework in Frameworks */,
+				69C327A118B738A400860301 /* UIKit.framework in Frameworks */,
+				69C3279D18B738A400860301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C327B718B738A400860301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C327BC18B738A400860301 /* XCTest.framework in Frameworks */,
+				69C327BE18B738A400860301 /* UIKit.framework in Frameworks */,
+				69C327BD18B738A400860301 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C3279018B738A400860301 = {
+			isa = PBXGroup;
+			children = (
+				69C327A218B738A400860301 /* Cervezas */,
+				69C327C118B738A400860301 /* CervezasTests */,
+				69C3279B18B738A400860301 /* Frameworks */,
+				69C3279A18B738A400860301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69C3279A18B738A400860301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C3279918B738A400860301 /* Cervezas.app */,
+				69C327BA18B738A400860301 /* CervezasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C3279B18B738A400860301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C3279C18B738A400860301 /* Foundation.framework */,
+				69C3279E18B738A400860301 /* CoreGraphics.framework */,
+				69C327A018B738A400860301 /* UIKit.framework */,
+				69C327BB18B738A400860301 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C327A218B738A400860301 /* Cervezas */ = {
+			isa = PBXGroup;
+			children = (
+				69C3283E18B73C0900860301 /* beers.plist */,
+				69C327D118B73AE900860301 /* imagenes */,
+				69C327AE18B738A400860301 /* Main.storyboard */,
+				69C3292018B774C200860301 /* TablaViewController.h */,
+				69C3292118B774C200860301 /* TablaViewController.m */,
+				69D5117A18BB6E1400EDABD8 /* SegundaViewController.h */,
+				69D5117B18BB6E1400EDABD8 /* SegundaViewController.m */,
+				69C3291A18B7640400860301 /* Cervezas.h */,
+				69C3291B18B7640400860301 /* Cervezas.m */,
+				69C3291D18B76E7200860301 /* Cerveza.h */,
+				69C3291E18B76E7200860301 /* Cerveza.m */,
+				69CF46C718BCAF6800E68E44 /* AñadirViewController.h */,
+				69CF46C818BCAF6800E68E44 /* AñadirViewController.m */,
+				69CF46C418BC9F4F00E68E44 /* SeleccionaFotoViewController.h */,
+				69CF46C518BC9F4F00E68E44 /* SeleccionaFotoViewController.m */,
+				69C327B418B738A400860301 /* Images.xcassets */,
+				69C327A318B738A400860301 /* Supporting Files */,
+			);
+			path = Cervezas;
+			sourceTree = "<group>";
+		};
+		69C327A318B738A400860301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C327AB18B738A400860301 /* AppDelegate.h */,
+				69C327AC18B738A400860301 /* AppDelegate.m */,
+				69C327A418B738A400860301 /* Cervezas-Info.plist */,
+				69C327A518B738A400860301 /* InfoPlist.strings */,
+				69C327A818B738A400860301 /* main.m */,
+				69C327AA18B738A400860301 /* Cervezas-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69C327C118B738A400860301 /* CervezasTests */ = {
+			isa = PBXGroup;
+			children = (
+				69C327C718B738A400860301 /* CervezasTests.m */,
+				69C327C218B738A400860301 /* Supporting Files */,
+			);
+			path = CervezasTests;
+			sourceTree = "<group>";
+		};
+		69C327C218B738A400860301 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C327C318B738A400860301 /* CervezasTests-Info.plist */,
+				69C327C418B738A400860301 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69C327D118B73AE900860301 /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				69C3280818B73B9400860301 /* beer_allagash_white.jpg */,
+				69C3280918B73B9400860301 /* beer_anchor_christmas.jpg */,
+				69C3280A18B73B9400860301 /* beer_anchor_steam.jpg */,
+				69C3280B18B73B9400860301 /* beer_bruery_saison_rue.jpg */,
+				69C3280C18B73B9400860301 /* beer_cantillon_iris.jpg */,
+				69C3280D18B73B9400860301 /* beer_capuccino_stout.jpg */,
+				69C3280E18B73B9400860301 /* beer_de_struise_pannepot.jpg */,
+				69C3280F18B73B9400860301 /* beer_dortmunder_gold.jpg */,
+				69C3281018B73B9400860301 /* beer_founders_kbs.jpg */,
+				69C3281118B73B9400860301 /* beer_great_divide_yeti_stout.jpg */,
+				69C3281218B73B9400860301 /* beer_harviestoun_old_engine_oil.jpg */,
+				69C3281318B73B9400860301 /* beer_hennepin.jpg */,
+				69C3281418B73B9400860301 /* beer_hitacho_lacto_stout.jpg */,
+				69C3281518B73B9400860301 /* beer_jolly_pumpkin_la_roja.jpg */,
+				69C3281618B73B9400860301 /* beer_lion_stout.jpg */,
+				69C3281718B73B9400860301 /* beer_orval_trappist.jpg */,
+				69C3281818B73B9400860301 /* beer_paradox_smokehead.jpg */,
+				69C3281918B73B9400860301 /* beer_port_brewing_shark_attack_red.jpg */,
+				69C3281A18B73B9400860301 /* beer_pretty_things_jack_dor.jpg */,
+				69C3281B18B73B9400860301 /* beer_rodenbach_grand_cru.jpg */,
+				69C3281C18B73B9400860301 /* beer_rogue_dead_guy.jpg */,
+				69C3281D18B73B9400860301 /* beer_samuel_smith_oatmeal_stout.jpg */,
+				69C3281E18B73B9400860301 /* beer_smuttynose_barleywine.jpg */,
+				69C3281F18B73B9400860301 /* beer_weihenstephaner_hefeweissbier.jpg */,
+				69C3282018B73B9400860301 /* beer_westvleteren_abt_12.jpg */,
+				69C3282118B73B9400860301 /* beer_whiteback_white.jpg */,
+			);
+			name = imagenes;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69C3279818B738A400860301 /* Cervezas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C327CB18B738A400860301 /* Build configuration list for PBXNativeTarget "Cervezas" */;
+			buildPhases = (
+				69C3279518B738A400860301 /* Sources */,
+				69C3279618B738A400860301 /* Frameworks */,
+				69C3279718B738A400860301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cervezas;
+			productName = Cervezas;
+			productReference = 69C3279918B738A400860301 /* Cervezas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69C327B918B738A400860301 /* CervezasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C327CE18B738A400860301 /* Build configuration list for PBXNativeTarget "CervezasTests" */;
+			buildPhases = (
+				69C327B618B738A400860301 /* Sources */,
+				69C327B718B738A400860301 /* Frameworks */,
+				69C327B818B738A400860301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69C327C018B738A400860301 /* PBXTargetDependency */,
+			);
+			name = CervezasTests;
+			productName = CervezasTests;
+			productReference = 69C327BA18B738A400860301 /* CervezasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C3279118B738A400860301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = javi;
+				TargetAttributes = {
+					69C327B918B738A400860301 = {
+						TestTargetID = 69C3279818B738A400860301;
+					};
+				};
+			};
+			buildConfigurationList = 69C3279418B738A400860301 /* Build configuration list for PBXProject "Cervezas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69C3279018B738A400860301;
+			productRefGroup = 69C3279A18B738A400860301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C3279818B738A400860301 /* Cervezas */,
+				69C327B918B738A400860301 /* CervezasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C3279718B738A400860301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3282318B73B9400860301 /* beer_allagash_white.jpg in Resources */,
+				69C3282C18B73B9400860301 /* beer_great_divide_yeti_stout.jpg in Resources */,
+				69C3282918B73B9400860301 /* beer_de_struise_pannepot.jpg in Resources */,
+				69C3283418B73B9400860301 /* beer_port_brewing_shark_attack_red.jpg in Resources */,
+				69C3283F18B73C0900860301 /* beers.plist in Resources */,
+				69C3283B18B73B9400860301 /* beer_westvleteren_abt_12.jpg in Resources */,
+				69C3282B18B73B9400860301 /* beer_founders_kbs.jpg in Resources */,
+				69C3282A18B73B9400860301 /* beer_dortmunder_gold.jpg in Resources */,
+				69C327B518B738A400860301 /* Images.xcassets in Resources */,
+				69C3282418B73B9400860301 /* beer_anchor_christmas.jpg in Resources */,
+				69C3282D18B73B9400860301 /* beer_harviestoun_old_engine_oil.jpg in Resources */,
+				69C3283018B73B9400860301 /* beer_jolly_pumpkin_la_roja.jpg in Resources */,
+				69C3282F18B73B9400860301 /* beer_hitacho_lacto_stout.jpg in Resources */,
+				69C3283A18B73B9400860301 /* beer_weihenstephaner_hefeweissbier.jpg in Resources */,
+				69C3282618B73B9400860301 /* beer_bruery_saison_rue.jpg in Resources */,
+				69C3282518B73B9400860301 /* beer_anchor_steam.jpg in Resources */,
+				69C3282718B73B9400860301 /* beer_cantillon_iris.jpg in Resources */,
+				69C3283818B73B9400860301 /* beer_samuel_smith_oatmeal_stout.jpg in Resources */,
+				69C3283718B73B9400860301 /* beer_rogue_dead_guy.jpg in Resources */,
+				69C3283618B73B9400860301 /* beer_rodenbach_grand_cru.jpg in Resources */,
+				69C3283318B73B9400860301 /* beer_paradox_smokehead.jpg in Resources */,
+				69C3283118B73B9400860301 /* beer_lion_stout.jpg in Resources */,
+				69C3282E18B73B9400860301 /* beer_hennepin.jpg in Resources */,
+				69C3283918B73B9400860301 /* beer_smuttynose_barleywine.jpg in Resources */,
+				69C327A718B738A400860301 /* InfoPlist.strings in Resources */,
+				69C3283C18B73B9400860301 /* beer_whiteback_white.jpg in Resources */,
+				69C3283218B73B9400860301 /* beer_orval_trappist.jpg in Resources */,
+				69C3282818B73B9400860301 /* beer_capuccino_stout.jpg in Resources */,
+				69C327B018B738A400860301 /* Main.storyboard in Resources */,
+				69C3283518B73B9400860301 /* beer_pretty_things_jack_dor.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C327B818B738A400860301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C327C618B738A400860301 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C3279518B738A400860301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C3291C18B7640400860301 /* Cervezas.m in Sources */,
+				69C327AD18B738A400860301 /* AppDelegate.m in Sources */,
+				69C3292218B774C200860301 /* TablaViewController.m in Sources */,
+				69CF46C918BCAF6800E68E44 /* AñadirViewController.m in Sources */,
+				69C3291F18B76E7200860301 /* Cerveza.m in Sources */,
+				69CF46C618BC9F4F00E68E44 /* SeleccionaFotoViewController.m in Sources */,
+				69D5117C18BB6E1400EDABD8 /* SegundaViewController.m in Sources */,
+				69C327A918B738A400860301 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69C327B618B738A400860301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C327C818B738A400860301 /* CervezasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C327C018B738A400860301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C3279818B738A400860301 /* Cervezas */;
+			targetProxy = 69C327BF18B738A400860301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C327A518B738A400860301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C327A618B738A400860301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69C327AE18B738A400860301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C327AF18B738A400860301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69C327C418B738A400860301 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C327C518B738A400860301 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C327C918B738A400860301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69C327CA18B738A400860301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69C327CC18B738A400860301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				INFOPLIST_FILE = "Cervezas/Cervezas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69C327CD18B738A400860301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				INFOPLIST_FILE = "Cervezas/Cervezas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69C327CF18B738A400860301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cervezas.app/Cervezas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CervezasTests/CervezasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69C327D018B738A400860301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cervezas.app/Cervezas";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cervezas/Cervezas-Prefix.pch";
+				INFOPLIST_FILE = "CervezasTests/CervezasTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C3279418B738A400860301 /* Build configuration list for PBXProject "Cervezas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C327C918B738A400860301 /* Debug */,
+				69C327CA18B738A400860301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C327CB18B738A400860301 /* Build configuration list for PBXNativeTarget "Cervezas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C327CC18B738A400860301 /* Debug */,
+				69C327CD18B738A400860301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C327CE18B738A400860301 /* Build configuration list for PBXNativeTarget "CervezasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C327CF18B738A400860301 /* Debug */,
+				69C327D018B738A400860301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C3279118B738A400860301 /* Project object */;
+}
