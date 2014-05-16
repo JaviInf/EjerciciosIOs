@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6904483318EEA1800008C64B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6904483218EEA1800008C64B /* Social.framework */; };
+		690654DD18EAC37000D4EB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654DC18EAC37000D4EB10 /* Foundation.framework */; };
+		690654DF18EAC37000D4EB10 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654DE18EAC37000D4EB10 /* CoreGraphics.framework */; };
+		690654E118EAC37000D4EB10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654E018EAC37000D4EB10 /* UIKit.framework */; };
+		690654E718EAC37000D4EB10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 690654E518EAC37000D4EB10 /* InfoPlist.strings */; };
+		690654E918EAC37000D4EB10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690654E818EAC37000D4EB10 /* main.m */; };
+		690654ED18EAC37000D4EB10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690654EC18EAC37000D4EB10 /* AppDelegate.m */; };
+		690654F018EAC37000D4EB10 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690654EE18EAC37000D4EB10 /* Main_iPhone.storyboard */; };
+		690654F318EAC37000D4EB10 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690654F118EAC37000D4EB10 /* Main_iPad.storyboard */; };
+		690654F818EAC37000D4EB10 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690654F718EAC37000D4EB10 /* Images.xcassets */; };
+		690654FF18EAC37000D4EB10 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654FE18EAC37000D4EB10 /* XCTest.framework */; };
+		6906550018EAC37000D4EB10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654DC18EAC37000D4EB10 /* Foundation.framework */; };
+		6906550118EAC37000D4EB10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690654E018EAC37000D4EB10 /* UIKit.framework */; };
+		6906550918EAC37000D4EB10 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6906550718EAC37000D4EB10 /* InfoPlist.strings */; };
+		6906550B18EAC37000D4EB10 /* CinefiliaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906550A18EAC37000D4EB10 /* CinefiliaTests.m */; };
+		6906551618EAC42B00D4EB10 /* CarteleraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906551518EAC42B00D4EB10 /* CarteleraViewController.m */; };
+		6906551918EAC45F00D4EB10 /* Modelo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906551818EAC45F00D4EB10 /* Modelo.m */; };
+		6906551C18EAC88400D4EB10 /* Pelicula.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906551B18EAC88400D4EB10 /* Pelicula.m */; };
+		6906551F18EAD1B700D4EB10 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906551E18EAD1B700D4EB10 /* DetalleViewController.m */; };
+		6906552218EAD38D00D4EB10 /* WebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6906552118EAD38D00D4EB10 /* WebViewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6906550218EAC37000D4EB10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690654D118EAC37000D4EB10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690654D818EAC37000D4EB10;
+			remoteInfo = Cinefilia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6904483218EEA1800008C64B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		690654D918EAC37000D4EB10 /* Cinefilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinefilia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		690654DC18EAC37000D4EB10 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		690654DE18EAC37000D4EB10 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		690654E018EAC37000D4EB10 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		690654E418EAC37000D4EB10 /* Cinefilia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cinefilia-Info.plist"; sourceTree = "<group>"; };
+		690654E618EAC37000D4EB10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		690654E818EAC37000D4EB10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		690654EA18EAC37000D4EB10 /* Cinefilia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cinefilia-Prefix.pch"; sourceTree = "<group>"; };
+		690654EB18EAC37000D4EB10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		690654EC18EAC37000D4EB10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		690654EF18EAC37000D4EB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		690654F218EAC37000D4EB10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		690654F718EAC37000D4EB10 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		690654FD18EAC37000D4EB10 /* CinefiliaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinefiliaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		690654FE18EAC37000D4EB10 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6906550618EAC37000D4EB10 /* CinefiliaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinefiliaTests-Info.plist"; sourceTree = "<group>"; };
+		6906550818EAC37000D4EB10 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6906550A18EAC37000D4EB10 /* CinefiliaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinefiliaTests.m; sourceTree = "<group>"; };
+		6906551418EAC42B00D4EB10 /* CarteleraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarteleraViewController.h; sourceTree = "<group>"; };
+		6906551518EAC42B00D4EB10 /* CarteleraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarteleraViewController.m; sourceTree = "<group>"; };
+		6906551718EAC45F00D4EB10 /* Modelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modelo.h; sourceTree = "<group>"; };
+		6906551818EAC45F00D4EB10 /* Modelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Modelo.m; sourceTree = "<group>"; };
+		6906551A18EAC88400D4EB10 /* Pelicula.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pelicula.h; sourceTree = "<group>"; };
+		6906551B18EAC88400D4EB10 /* Pelicula.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pelicula.m; sourceTree = "<group>"; };
+		6906551D18EAD1B700D4EB10 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		6906551E18EAD1B700D4EB10 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		6906552018EAD38D00D4EB10 /* WebViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewViewController.h; sourceTree = "<group>"; };
+		6906552118EAD38D00D4EB10 /* WebViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		690654D618EAC37000D4EB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6904483318EEA1800008C64B /* Social.framework in Frameworks */,
+				690654DF18EAC37000D4EB10 /* CoreGraphics.framework in Frameworks */,
+				690654E118EAC37000D4EB10 /* UIKit.framework in Frameworks */,
+				690654DD18EAC37000D4EB10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690654FA18EAC37000D4EB10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690654FF18EAC37000D4EB10 /* XCTest.framework in Frameworks */,
+				6906550118EAC37000D4EB10 /* UIKit.framework in Frameworks */,
+				6906550018EAC37000D4EB10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690654D018EAC37000D4EB10 = {
+			isa = PBXGroup;
+			children = (
+				690654E218EAC37000D4EB10 /* Cinefilia */,
+				6906550418EAC37000D4EB10 /* CinefiliaTests */,
+				690654DB18EAC37000D4EB10 /* Frameworks */,
+				690654DA18EAC37000D4EB10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690654DA18EAC37000D4EB10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690654D918EAC37000D4EB10 /* Cinefilia.app */,
+				690654FD18EAC37000D4EB10 /* CinefiliaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690654DB18EAC37000D4EB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6904483218EEA1800008C64B /* Social.framework */,
+				690654DC18EAC37000D4EB10 /* Foundation.framework */,
+				690654DE18EAC37000D4EB10 /* CoreGraphics.framework */,
+				690654E018EAC37000D4EB10 /* UIKit.framework */,
+				690654FE18EAC37000D4EB10 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690654E218EAC37000D4EB10 /* Cinefilia */ = {
+			isa = PBXGroup;
+			children = (
+				6906551418EAC42B00D4EB10 /* CarteleraViewController.h */,
+				6906551518EAC42B00D4EB10 /* CarteleraViewController.m */,
+				690654EE18EAC37000D4EB10 /* Main_iPhone.storyboard */,
+				6906552018EAD38D00D4EB10 /* WebViewViewController.h */,
+				6906552118EAD38D00D4EB10 /* WebViewViewController.m */,
+				6906551D18EAD1B700D4EB10 /* DetalleViewController.h */,
+				6906551E18EAD1B700D4EB10 /* DetalleViewController.m */,
+				6906551718EAC45F00D4EB10 /* Modelo.h */,
+				6906551818EAC45F00D4EB10 /* Modelo.m */,
+				6906551A18EAC88400D4EB10 /* Pelicula.h */,
+				6906551B18EAC88400D4EB10 /* Pelicula.m */,
+				690654F118EAC37000D4EB10 /* Main_iPad.storyboard */,
+				690654F718EAC37000D4EB10 /* Images.xcassets */,
+				690654E318EAC37000D4EB10 /* Supporting Files */,
+			);
+			path = Cinefilia;
+			sourceTree = "<group>";
+		};
+		690654E318EAC37000D4EB10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690654EB18EAC37000D4EB10 /* AppDelegate.h */,
+				690654EC18EAC37000D4EB10 /* AppDelegate.m */,
+				690654E418EAC37000D4EB10 /* Cinefilia-Info.plist */,
+				690654E518EAC37000D4EB10 /* InfoPlist.strings */,
+				690654E818EAC37000D4EB10 /* main.m */,
+				690654EA18EAC37000D4EB10 /* Cinefilia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6906550418EAC37000D4EB10 /* CinefiliaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6906550A18EAC37000D4EB10 /* CinefiliaTests.m */,
+				6906550518EAC37000D4EB10 /* Supporting Files */,
+			);
+			path = CinefiliaTests;
+			sourceTree = "<group>";
+		};
+		6906550518EAC37000D4EB10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6906550618EAC37000D4EB10 /* CinefiliaTests-Info.plist */,
+				6906550718EAC37000D4EB10 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		690654D818EAC37000D4EB10 /* Cinefilia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6906550E18EAC37000D4EB10 /* Build configuration list for PBXNativeTarget "Cinefilia" */;
+			buildPhases = (
+				690654D518EAC37000D4EB10 /* Sources */,
+				690654D618EAC37000D4EB10 /* Frameworks */,
+				690654D718EAC37000D4EB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinefilia;
+			productName = Cinefilia;
+			productReference = 690654D918EAC37000D4EB10 /* Cinefilia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		690654FC18EAC37000D4EB10 /* CinefiliaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6906551118EAC37000D4EB10 /* Build configuration list for PBXNativeTarget "CinefiliaTests" */;
+			buildPhases = (
+				690654F918EAC37000D4EB10 /* Sources */,
+				690654FA18EAC37000D4EB10 /* Frameworks */,
+				690654FB18EAC37000D4EB10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6906550318EAC37000D4EB10 /* PBXTargetDependency */,
+			);
+			name = CinefiliaTests;
+			productName = CinefiliaTests;
+			productReference = 690654FD18EAC37000D4EB10 /* CinefiliaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		690654D118EAC37000D4EB10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = javi;
+				TargetAttributes = {
+					690654FC18EAC37000D4EB10 = {
+						TestTargetID = 690654D818EAC37000D4EB10;
+					};
+				};
+			};
+			buildConfigurationList = 690654D418EAC37000D4EB10 /* Build configuration list for PBXProject "Cinefilia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 690654D018EAC37000D4EB10;
+			productRefGroup = 690654DA18EAC37000D4EB10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				690654D818EAC37000D4EB10 /* Cinefilia */,
+				690654FC18EAC37000D4EB10 /* CinefiliaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		690654D718EAC37000D4EB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690654F318EAC37000D4EB10 /* Main_iPad.storyboard in Resources */,
+				690654F818EAC37000D4EB10 /* Images.xcassets in Resources */,
+				690654F018EAC37000D4EB10 /* Main_iPhone.storyboard in Resources */,
+				690654E718EAC37000D4EB10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690654FB18EAC37000D4EB10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6906550918EAC37000D4EB10 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		690654D518EAC37000D4EB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6906551F18EAD1B700D4EB10 /* DetalleViewController.m in Sources */,
+				6906552218EAD38D00D4EB10 /* WebViewViewController.m in Sources */,
+				690654ED18EAC37000D4EB10 /* AppDelegate.m in Sources */,
+				6906551618EAC42B00D4EB10 /* CarteleraViewController.m in Sources */,
+				690654E918EAC37000D4EB10 /* main.m in Sources */,
+				6906551C18EAC88400D4EB10 /* Pelicula.m in Sources */,
+				6906551918EAC45F00D4EB10 /* Modelo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690654F918EAC37000D4EB10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6906550B18EAC37000D4EB10 /* CinefiliaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6906550318EAC37000D4EB10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 690654D818EAC37000D4EB10 /* Cinefilia */;
+			targetProxy = 6906550218EAC37000D4EB10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		690654E518EAC37000D4EB10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690654E618EAC37000D4EB10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		690654EE18EAC37000D4EB10 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690654EF18EAC37000D4EB10 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		690654F118EAC37000D4EB10 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690654F218EAC37000D4EB10 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		6906550718EAC37000D4EB10 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6906550818EAC37000D4EB10 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6906550C18EAC37000D4EB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6906550D18EAC37000D4EB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6906550F18EAC37000D4EB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinefilia/Cinefilia-Prefix.pch";
+				INFOPLIST_FILE = "Cinefilia/Cinefilia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6906551018EAC37000D4EB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinefilia/Cinefilia-Prefix.pch";
+				INFOPLIST_FILE = "Cinefilia/Cinefilia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6906551218EAC37000D4EB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinefilia.app/Cinefilia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinefilia/Cinefilia-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CinefiliaTests/CinefiliaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6906551318EAC37000D4EB10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinefilia.app/Cinefilia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinefilia/Cinefilia-Prefix.pch";
+				INFOPLIST_FILE = "CinefiliaTests/CinefiliaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		690654D418EAC37000D4EB10 /* Build configuration list for PBXProject "Cinefilia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6906550C18EAC37000D4EB10 /* Debug */,
+				6906550D18EAC37000D4EB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6906550E18EAC37000D4EB10 /* Build configuration list for PBXNativeTarget "Cinefilia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6906550F18EAC37000D4EB10 /* Debug */,
+				6906551018EAC37000D4EB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6906551118EAC37000D4EB10 /* Build configuration list for PBXNativeTarget "CinefiliaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6906551218EAC37000D4EB10 /* Debug */,
+				6906551318EAC37000D4EB10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 690654D118EAC37000D4EB10 /* Project object */;
+}
