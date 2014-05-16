@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		690F2CBC18E94A2200D2EECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CBB18E94A2200D2EECF /* Foundation.framework */; };
+		690F2CBE18E94A2200D2EECF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CBD18E94A2200D2EECF /* CoreGraphics.framework */; };
+		690F2CC018E94A2200D2EECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CBF18E94A2200D2EECF /* UIKit.framework */; };
+		690F2CC618E94A2200D2EECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 690F2CC418E94A2200D2EECF /* InfoPlist.strings */; };
+		690F2CC818E94A2200D2EECF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 690F2CC718E94A2200D2EECF /* main.m */; };
+		690F2CCC18E94A2200D2EECF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 690F2CCB18E94A2200D2EECF /* AppDelegate.m */; };
+		690F2CCF18E94A2200D2EECF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690F2CCD18E94A2200D2EECF /* Main_iPhone.storyboard */; };
+		690F2CD218E94A2200D2EECF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 690F2CD018E94A2200D2EECF /* Main_iPad.storyboard */; };
+		690F2CD518E94A2200D2EECF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690F2CD418E94A2200D2EECF /* ViewController.m */; };
+		690F2CD718E94A2200D2EECF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690F2CD618E94A2200D2EECF /* Images.xcassets */; };
+		690F2CDE18E94A2200D2EECF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CDD18E94A2200D2EECF /* XCTest.framework */; };
+		690F2CDF18E94A2200D2EECF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CBB18E94A2200D2EECF /* Foundation.framework */; };
+		690F2CE018E94A2200D2EECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690F2CBF18E94A2200D2EECF /* UIKit.framework */; };
+		690F2CE818E94A2200D2EECF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 690F2CE618E94A2200D2EECF /* InfoPlist.strings */; };
+		690F2CEA18E94A2200D2EECF /* EjemploUnwindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 690F2CE918E94A2200D2EECF /* EjemploUnwindTests.m */; };
+		690F2CF518E94C5400D2EECF /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690F2CF418E94C5400D2EECF /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		690F2CE118E94A2200D2EECF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 690F2CB018E94A2200D2EECF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 690F2CB718E94A2200D2EECF;
+			remoteInfo = EjemploUnwind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		690F2CB818E94A2200D2EECF /* EjemploUnwind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjemploUnwind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		690F2CBB18E94A2200D2EECF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		690F2CBD18E94A2200D2EECF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		690F2CBF18E94A2200D2EECF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		690F2CC318E94A2200D2EECF /* EjemploUnwind-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploUnwind-Info.plist"; sourceTree = "<group>"; };
+		690F2CC518E94A2200D2EECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		690F2CC718E94A2200D2EECF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		690F2CC918E94A2200D2EECF /* EjemploUnwind-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EjemploUnwind-Prefix.pch"; sourceTree = "<group>"; };
+		690F2CCA18E94A2200D2EECF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		690F2CCB18E94A2200D2EECF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		690F2CCE18E94A2200D2EECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		690F2CD118E94A2200D2EECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		690F2CD318E94A2200D2EECF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		690F2CD418E94A2200D2EECF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		690F2CD618E94A2200D2EECF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		690F2CDC18E94A2200D2EECF /* EjemploUnwindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EjemploUnwindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		690F2CDD18E94A2200D2EECF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		690F2CE518E94A2200D2EECF /* EjemploUnwindTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EjemploUnwindTests-Info.plist"; sourceTree = "<group>"; };
+		690F2CE718E94A2200D2EECF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		690F2CE918E94A2200D2EECF /* EjemploUnwindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EjemploUnwindTests.m; sourceTree = "<group>"; };
+		690F2CF318E94C5400D2EECF /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		690F2CF418E94C5400D2EECF /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		690F2CB518E94A2200D2EECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CBE18E94A2200D2EECF /* CoreGraphics.framework in Frameworks */,
+				690F2CC018E94A2200D2EECF /* UIKit.framework in Frameworks */,
+				690F2CBC18E94A2200D2EECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690F2CD918E94A2200D2EECF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CDE18E94A2200D2EECF /* XCTest.framework in Frameworks */,
+				690F2CE018E94A2200D2EECF /* UIKit.framework in Frameworks */,
+				690F2CDF18E94A2200D2EECF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		690F2CAF18E94A2200D2EECF = {
+			isa = PBXGroup;
+			children = (
+				690F2CC118E94A2200D2EECF /* EjemploUnwind */,
+				690F2CE318E94A2200D2EECF /* EjemploUnwindTests */,
+				690F2CBA18E94A2200D2EECF /* Frameworks */,
+				690F2CB918E94A2200D2EECF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		690F2CB918E94A2200D2EECF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CB818E94A2200D2EECF /* EjemploUnwind.app */,
+				690F2CDC18E94A2200D2EECF /* EjemploUnwindTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		690F2CBA18E94A2200D2EECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CBB18E94A2200D2EECF /* Foundation.framework */,
+				690F2CBD18E94A2200D2EECF /* CoreGraphics.framework */,
+				690F2CBF18E94A2200D2EECF /* UIKit.framework */,
+				690F2CDD18E94A2200D2EECF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		690F2CC118E94A2200D2EECF /* EjemploUnwind */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CCD18E94A2200D2EECF /* Main_iPhone.storyboard */,
+				690F2CF318E94C5400D2EECF /* ModalViewController.h */,
+				690F2CF418E94C5400D2EECF /* ModalViewController.m */,
+				690F2CD018E94A2200D2EECF /* Main_iPad.storyboard */,
+				690F2CD318E94A2200D2EECF /* ViewController.h */,
+				690F2CD418E94A2200D2EECF /* ViewController.m */,
+				690F2CD618E94A2200D2EECF /* Images.xcassets */,
+				690F2CC218E94A2200D2EECF /* Supporting Files */,
+			);
+			path = EjemploUnwind;
+			sourceTree = "<group>";
+		};
+		690F2CC218E94A2200D2EECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CCA18E94A2200D2EECF /* AppDelegate.h */,
+				690F2CCB18E94A2200D2EECF /* AppDelegate.m */,
+				690F2CC318E94A2200D2EECF /* EjemploUnwind-Info.plist */,
+				690F2CC418E94A2200D2EECF /* InfoPlist.strings */,
+				690F2CC718E94A2200D2EECF /* main.m */,
+				690F2CC918E94A2200D2EECF /* EjemploUnwind-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		690F2CE318E94A2200D2EECF /* EjemploUnwindTests */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CE918E94A2200D2EECF /* EjemploUnwindTests.m */,
+				690F2CE418E94A2200D2EECF /* Supporting Files */,
+			);
+			path = EjemploUnwindTests;
+			sourceTree = "<group>";
+		};
+		690F2CE418E94A2200D2EECF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				690F2CE518E94A2200D2EECF /* EjemploUnwindTests-Info.plist */,
+				690F2CE618E94A2200D2EECF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		690F2CB718E94A2200D2EECF /* EjemploUnwind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690F2CED18E94A2200D2EECF /* Build configuration list for PBXNativeTarget "EjemploUnwind" */;
+			buildPhases = (
+				690F2CB418E94A2200D2EECF /* Sources */,
+				690F2CB518E94A2200D2EECF /* Frameworks */,
+				690F2CB618E94A2200D2EECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjemploUnwind;
+			productName = EjemploUnwind;
+			productReference = 690F2CB818E94A2200D2EECF /* EjemploUnwind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		690F2CDB18E94A2200D2EECF /* EjemploUnwindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 690F2CF018E94A2200D2EECF /* Build configuration list for PBXNativeTarget "EjemploUnwindTests" */;
+			buildPhases = (
+				690F2CD818E94A2200D2EECF /* Sources */,
+				690F2CD918E94A2200D2EECF /* Frameworks */,
+				690F2CDA18E94A2200D2EECF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				690F2CE218E94A2200D2EECF /* PBXTargetDependency */,
+			);
+			name = EjemploUnwindTests;
+			productName = EjemploUnwindTests;
+			productReference = 690F2CDC18E94A2200D2EECF /* EjemploUnwindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		690F2CB018E94A2200D2EECF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = javi;
+				TargetAttributes = {
+					690F2CDB18E94A2200D2EECF = {
+						TestTargetID = 690F2CB718E94A2200D2EECF;
+					};
+				};
+			};
+			buildConfigurationList = 690F2CB318E94A2200D2EECF /* Build configuration list for PBXProject "EjemploUnwind" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 690F2CAF18E94A2200D2EECF;
+			productRefGroup = 690F2CB918E94A2200D2EECF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				690F2CB718E94A2200D2EECF /* EjemploUnwind */,
+				690F2CDB18E94A2200D2EECF /* EjemploUnwindTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		690F2CB618E94A2200D2EECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CD218E94A2200D2EECF /* Main_iPad.storyboard in Resources */,
+				690F2CD718E94A2200D2EECF /* Images.xcassets in Resources */,
+				690F2CCF18E94A2200D2EECF /* Main_iPhone.storyboard in Resources */,
+				690F2CC618E94A2200D2EECF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690F2CDA18E94A2200D2EECF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CE818E94A2200D2EECF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		690F2CB418E94A2200D2EECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CF518E94C5400D2EECF /* ModalViewController.m in Sources */,
+				690F2CD518E94A2200D2EECF /* ViewController.m in Sources */,
+				690F2CCC18E94A2200D2EECF /* AppDelegate.m in Sources */,
+				690F2CC818E94A2200D2EECF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		690F2CD818E94A2200D2EECF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				690F2CEA18E94A2200D2EECF /* EjemploUnwindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		690F2CE218E94A2200D2EECF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 690F2CB718E94A2200D2EECF /* EjemploUnwind */;
+			targetProxy = 690F2CE118E94A2200D2EECF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		690F2CC418E94A2200D2EECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690F2CC518E94A2200D2EECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		690F2CCD18E94A2200D2EECF /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690F2CCE18E94A2200D2EECF /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		690F2CD018E94A2200D2EECF /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690F2CD118E94A2200D2EECF /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		690F2CE618E94A2200D2EECF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				690F2CE718E94A2200D2EECF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		690F2CEB18E94A2200D2EECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		690F2CEC18E94A2200D2EECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		690F2CEE18E94A2200D2EECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploUnwind/EjemploUnwind-Prefix.pch";
+				INFOPLIST_FILE = "EjemploUnwind/EjemploUnwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		690F2CEF18E94A2200D2EECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploUnwind/EjemploUnwind-Prefix.pch";
+				INFOPLIST_FILE = "EjemploUnwind/EjemploUnwind-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		690F2CF118E94A2200D2EECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploUnwind.app/EjemploUnwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploUnwind/EjemploUnwind-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EjemploUnwindTests/EjemploUnwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		690F2CF218E94A2200D2EECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EjemploUnwind.app/EjemploUnwind";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EjemploUnwind/EjemploUnwind-Prefix.pch";
+				INFOPLIST_FILE = "EjemploUnwindTests/EjemploUnwindTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		690F2CB318E94A2200D2EECF /* Build configuration list for PBXProject "EjemploUnwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690F2CEB18E94A2200D2EECF /* Debug */,
+				690F2CEC18E94A2200D2EECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		690F2CED18E94A2200D2EECF /* Build configuration list for PBXNativeTarget "EjemploUnwind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690F2CEE18E94A2200D2EECF /* Debug */,
+				690F2CEF18E94A2200D2EECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		690F2CF018E94A2200D2EECF /* Build configuration list for PBXNativeTarget "EjemploUnwindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				690F2CF118E94A2200D2EECF /* Debug */,
+				690F2CF218E94A2200D2EECF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 690F2CB018E94A2200D2EECF /* Project object */;
+}
