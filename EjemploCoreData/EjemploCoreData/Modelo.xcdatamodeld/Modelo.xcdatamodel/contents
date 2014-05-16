@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="3401" systemVersion="12F45" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Foto" representedClassName="Foto" syncable="YES">
+        <attribute name="descripcion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_grande" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url_mini" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="autor" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Fotografo" inverseName="fotos" inverseEntity="Fotografo" syncable="YES"/>
+    </entity>
+    <entity name="Fotografo" representedClassName="Fotografo" syncable="YES">
+        <attribute name="nombre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="fotos" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Foto" inverseName="autor" inverseEntity="Foto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Foto" positionX="-81" positionY="164" width="117" height="103"/>
+        <element name="Fotografo" positionX="241" positionY="162" width="128" height="73"/>
+    </elements>
+</model>
